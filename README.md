@@ -6,6 +6,8 @@
 
 ## Models
 
+Naming convention: `config_<NumberOfVoters>_<NumberOfCandidates>.xml`.
+
 * _concerete/\*.xml_ - original models
 * _abstaction_1/\*.xml_ - globally removes variables `mem_sg` and `mem_vt` (i.e. voters memory of the cast vote and whether the voting declaration has been signed);
 * _abstaction_2/\*.xml_ - sums the detailed voting results from the array `tally` into a single variable `tally_sum`;
