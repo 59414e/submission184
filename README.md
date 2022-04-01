@@ -17,7 +17,7 @@
 
 Verification can be done either using GUI or command-line tool `verifyta.exe`.
 
-1. bstuff
+1. bstuff  
 ```A[](ballots_received()<=(sum(vi:v_t)Authority.pack_sent[vi]) && ((sum(vi:v_t)Authority.pack_sent[vi]))<=N_V)```
-2. dispath
+2. dispath  
 ```A[](Authority.coll_vts imply forall(i:v_t)Authority.pack_sent[i]==1)```
